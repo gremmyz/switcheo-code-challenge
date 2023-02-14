@@ -1,3 +1,5 @@
+// Test by running node index.js in CLI.
+
 var sum_to_n_a = function(n) {
     return (n * (n + 1)) / 2;
 };
@@ -17,3 +19,9 @@ var sum_to_n_c = function(n) {
     }
     return sum;
 };
+
+const n = 5;
+
+console.log("Solution 1: ", sum_to_n_a(n));
+console.log("Solution 2: ", sum_to_n_b(n));
+console.log("Solution 3: ", sum_to_n_c(n));
